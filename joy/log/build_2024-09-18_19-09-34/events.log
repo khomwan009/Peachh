@@ -1,0 +1,198 @@
+[0.000000] (-) TimerEvent: {}
+[0.000425] (joy) JobQueued: {'identifier': 'joy', 'dependencies': OrderedDict()}
+[0.000467] (joy) JobStarted: {'identifier': 'joy'}
+[0.005538] (joy) JobProgress: {'identifier': 'joy', 'progress': 'cmake'}
+[0.005583] (joy) Command: {'cmd': ['/usr/bin/cmake', '/home/peachji/F1tenth2024-main/vesc-humble/joy', '-DCMAKE_INSTALL_PREFIX=/home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy'], 'cwd': '/home/peachji/F1tenth2024-main/vesc-humble/joy/build/joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'peachji'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/peachji/microros_ws/install/micro_ros_agent/lib:/home/peachji/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/peachji'), ('OLDPWD', '/home/peachji/F1tenth2024-main/vesc-humble'), ('DESKTOP_SESSION', 'ubuntu'), ('EMW_IMPLENTATION', 'rmw_cyclonedds_cpp'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1431'), ('SYSTEMD_EXEC_PID', '1794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5554'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/peachji/microros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'peachji'), ('JOURNAL_STREAM', '8:21613'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'peachji'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/PeachJi:@/tmp/.ICE-unix/1605,unix/PeachJi:/tmp/.ICE-unix/1605'), ('INVOCATION_ID', 'e88b7fb81fe441b39c54034cecfd40eb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5JGAU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/peachji/microros_ws/install/micro_ros_setup:/home/peachji/microros_ws/install/micro_ros_agent:/home/peachji/microros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:71152a80-49bb-4fa5-9d5d-3f4216c3fca0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/peachji/F1tenth2024-main/vesc-humble/joy/build/joy'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/peachji/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/peachji/microros_ws/install/micro_ros_setup:/home/peachji/microros_ws/install/micro_ros_agent:/home/peachji/microros_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.046195] (joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.081651] (joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.086094] (joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099937] (-) TimerEvent: {}
+[0.142819] (joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.147064] (joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.147266] (joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.147482] (joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.149186] (joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200093] (-) TimerEvent: {}
+[0.217346] (joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.221676] (joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.221880] (joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.221989] (joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.223414] (joy) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.300225] (-) TimerEvent: {}
+[0.336235] (joy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.396469] (joy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400457] (-) TimerEvent: {}
+[0.419423] (joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.422180] (joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.426766] (joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.433511] (joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.442416] (joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.467120] (joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.468568] (joy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500543] (-) TimerEvent: {}
+[0.535623] (joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.551934] (joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.578068] (joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.582744] (joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600644] (-) TimerEvent: {}
+[0.643947] (joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.644163] (joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.698603] (joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.699666] (joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700700] (-) TimerEvent: {}
+[0.730442] (joy) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.745542] (joy) StdoutLine: {'line': b'-- Found sdl2_vendor: 3.3.0 (/opt/ros/humble/share/sdl2_vendor/cmake)\n'}
+[0.747527] (joy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.766097] (joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800923] (-) TimerEvent: {}
+[0.814303] (joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.814460] (joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/peachji/F1tenth2024-main/vesc-humble/joy/include>\n'}
+[0.814527] (joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.816430] (joy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.816569] (joy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.816898] (joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.817636] (joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.817959] (joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.820080] (joy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.820220] (joy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.820453] (joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.821288] (joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.831822] (joy) StdoutLine: {'line': b'-- Generating done\n'}
+[0.833046] (joy) StdoutLine: {'line': b'-- Build files have been written to: /home/peachji/F1tenth2024-main/vesc-humble/joy/build/joy\n'}
+[0.840734] (joy) CommandEnded: {'returncode': 0}
+[0.841291] (joy) JobProgress: {'identifier': 'joy', 'progress': 'build'}
+[0.841351] (joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/peachji/F1tenth2024-main/vesc-humble/joy/build/joy', '--', '-j16', '-l16'], 'cwd': '/home/peachji/F1tenth2024-main/vesc-humble/joy/build/joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'peachji'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/peachji/microros_ws/install/micro_ros_agent/lib:/home/peachji/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/peachji'), ('OLDPWD', '/home/peachji/F1tenth2024-main/vesc-humble'), ('DESKTOP_SESSION', 'ubuntu'), ('EMW_IMPLENTATION', 'rmw_cyclonedds_cpp'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1431'), ('SYSTEMD_EXEC_PID', '1794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5554'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/peachji/microros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'peachji'), ('JOURNAL_STREAM', '8:21613'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'peachji'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/PeachJi:@/tmp/.ICE-unix/1605,unix/PeachJi:/tmp/.ICE-unix/1605'), ('INVOCATION_ID', 'e88b7fb81fe441b39c54034cecfd40eb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5JGAU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/peachji/microros_ws/install/micro_ros_setup:/home/peachji/microros_ws/install/micro_ros_agent:/home/peachji/microros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:71152a80-49bb-4fa5-9d5d-3f4216c3fca0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/peachji/F1tenth2024-main/vesc-humble/joy/build/joy'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/peachji/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/peachji/microros_ws/install/micro_ros_setup:/home/peachji/microros_ws/install/micro_ros_agent:/home/peachji/microros_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.882190] (joy) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/game_controller.dir/src/game_controller.cpp.o\x1b[0m\n'}
+[0.884961] (joy) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o\x1b[0m\n'}
+[0.885162] (joy) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o\x1b[0m\n'}
+[0.885260] (joy) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/joy.dir/src/joy.cpp.o\x1b[0m\n'}
+[0.888392] (joy) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_node.dir/rclcpp_components/node_main_joy_node.cpp.o\x1b[0m\n'}
+[0.901028] (-) TimerEvent: {}
+[1.001315] (-) TimerEvent: {}
+[1.101697] (-) TimerEvent: {}
+[1.202026] (-) TimerEvent: {}
+[1.302432] (-) TimerEvent: {}
+[1.355753] (joy) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable joy_enumerate_devices\x1b[0m\n'}
+[1.402547] (-) TimerEvent: {}
+[1.462828] (joy) StdoutLine: {'line': b'[ 60%] Built target joy_enumerate_devices\n'}
+[1.502662] (-) TimerEvent: {}
+[1.603035] (-) TimerEvent: {}
+[1.703418] (-) TimerEvent: {}
+[1.803737] (-) TimerEvent: {}
+[1.904089] (-) TimerEvent: {}
+[2.004403] (-) TimerEvent: {}
+[2.104738] (-) TimerEvent: {}
+[2.205057] (-) TimerEvent: {}
+[2.305384] (-) TimerEvent: {}
+[2.405709] (-) TimerEvent: {}
+[2.506169] (-) TimerEvent: {}
+[2.606565] (-) TimerEvent: {}
+[2.706948] (-) TimerEvent: {}
+[2.807427] (-) TimerEvent: {}
+[2.907807] (-) TimerEvent: {}
+[3.008282] (-) TimerEvent: {}
+[3.108768] (-) TimerEvent: {}
+[3.209232] (-) TimerEvent: {}
+[3.309720] (-) TimerEvent: {}
+[3.410095] (-) TimerEvent: {}
+[3.484993] (joy) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable joy_node\x1b[0m\n'}
+[3.510317] (-) TimerEvent: {}
+[3.610804] (-) TimerEvent: {}
+[3.614120] (joy) StdoutLine: {'line': b'[ 70%] Built target joy_node\n'}
+[3.711036] (-) TimerEvent: {}
+[3.781267] (joy) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable game_controller_node\x1b[0m\n'}
+[3.811190] (-) TimerEvent: {}
+[3.891577] (joy) StdoutLine: {'line': b'[ 80%] Built target game_controller_node\n'}
+[3.911400] (-) TimerEvent: {}
+[4.011834] (-) TimerEvent: {}
+[4.112169] (-) TimerEvent: {}
+[4.212529] (-) TimerEvent: {}
+[4.312979] (-) TimerEvent: {}
+[4.413443] (-) TimerEvent: {}
+[4.513818] (-) TimerEvent: {}
+[4.614186] (-) TimerEvent: {}
+[4.714615] (-) TimerEvent: {}
+[4.814913] (-) TimerEvent: {}
+[4.915306] (-) TimerEvent: {}
+[5.015649] (-) TimerEvent: {}
+[5.116050] (-) TimerEvent: {}
+[5.216461] (-) TimerEvent: {}
+[5.316842] (-) TimerEvent: {}
+[5.417223] (-) TimerEvent: {}
+[5.517610] (-) TimerEvent: {}
+[5.617980] (-) TimerEvent: {}
+[5.718279] (-) TimerEvent: {}
+[5.818688] (-) TimerEvent: {}
+[5.918976] (-) TimerEvent: {}
+[6.019431] (-) TimerEvent: {}
+[6.119748] (-) TimerEvent: {}
+[6.220074] (-) TimerEvent: {}
+[6.320438] (-) TimerEvent: {}
+[6.420811] (-) TimerEvent: {}
+[6.521126] (-) TimerEvent: {}
+[6.621518] (-) TimerEvent: {}
+[6.721907] (-) TimerEvent: {}
+[6.822294] (-) TimerEvent: {}
+[6.922681] (-) TimerEvent: {}
+[7.023016] (-) TimerEvent: {}
+[7.123343] (-) TimerEvent: {}
+[7.223588] (-) TimerEvent: {}
+[7.323981] (-) TimerEvent: {}
+[7.345166] (joy) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libjoy.so\x1b[0m\n'}
+[7.424180] (-) TimerEvent: {}
+[7.524494] (-) TimerEvent: {}
+[7.624749] (-) TimerEvent: {}
+[7.636673] (joy) StdoutLine: {'line': b'[ 90%] Built target joy\n'}
+[7.700842] (joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgame_controller.so\x1b[0m\n'}
+[7.724877] (-) TimerEvent: {}
+[7.825253] (-) TimerEvent: {}
+[7.925652] (-) TimerEvent: {}
+[7.973553] (joy) StdoutLine: {'line': b'[100%] Built target game_controller\n'}
+[7.980582] (joy) CommandEnded: {'returncode': 0}
+[8.012083] (joy) JobProgress: {'identifier': 'joy', 'progress': 'install'}
+[8.018264] (joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/peachji/F1tenth2024-main/vesc-humble/joy/build/joy'], 'cwd': '/home/peachji/F1tenth2024-main/vesc-humble/joy/build/joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'peachji'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/peachji/microros_ws/install/micro_ros_agent/lib:/home/peachji/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/peachji'), ('OLDPWD', '/home/peachji/F1tenth2024-main/vesc-humble'), ('DESKTOP_SESSION', 'ubuntu'), ('EMW_IMPLENTATION', 'rmw_cyclonedds_cpp'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1431'), ('SYSTEMD_EXEC_PID', '1794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5554'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/peachji/microros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'peachji'), ('JOURNAL_STREAM', '8:21613'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'peachji'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/PeachJi:@/tmp/.ICE-unix/1605,unix/PeachJi:/tmp/.ICE-unix/1605'), ('INVOCATION_ID', 'e88b7fb81fe441b39c54034cecfd40eb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5JGAU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/peachji/microros_ws/install/micro_ros_setup:/home/peachji/microros_ws/install/micro_ros_agent:/home/peachji/microros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:71152a80-49bb-4fa5-9d5d-3f4216c3fca0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/peachji/F1tenth2024-main/vesc-humble/joy/build/joy'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/peachji/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/peachji/microros_ws/install/micro_ros_setup:/home/peachji/microros_ws/install/micro_ros_agent:/home/peachji/microros_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[8.023301] (joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.023436] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/lib/libjoy.so\n'}
+[8.025714] (-) TimerEvent: {}
+[8.026193] (joy) StdoutLine: {'line': b'-- Set runtime path of "/home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/lib/libjoy.so" to ""\n'}
+[8.026251] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/lib/joy/joy_node\n'}
+[8.026434] (joy) StdoutLine: {'line': b'-- Set runtime path of "/home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/lib/joy/joy_node" to ""\n'}
+[8.026501] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/lib/libgame_controller.so\n'}
+[8.029362] (joy) StdoutLine: {'line': b'-- Set runtime path of "/home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/lib/libgame_controller.so" to ""\n'}
+[8.029432] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/lib/joy/game_controller_node\n'}
+[8.029612] (joy) StdoutLine: {'line': b'-- Set runtime path of "/home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/lib/joy/game_controller_node" to ""\n'}
+[8.029719] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/lib/joy/joy_enumerate_devices\n'}
+[8.029752] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/include/joy\n'}
+[8.029778] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/include/joy/joy\n'}
+[8.029804] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/include/joy/joy/game_controller.hpp\n'}
+[8.029828] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/include/joy/joy/joy.hpp\n'}
+[8.029850] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/config\n'}
+[8.029877] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/config/joy-params.yaml\n'}
+[8.029901] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/launch\n'}
+[8.029926] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/launch/joy-launch.py\n'}
+[8.029977] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/launch/joy-composed-launch.py\n'}
+[8.030033] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/ament_index/resource_index/package_run_dependencies/joy\n'}
+[8.030062] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/ament_index/resource_index/parent_prefix_path/joy\n'}
+[8.030088] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/environment/ament_prefix_path.sh\n'}
+[8.030125] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/environment/ament_prefix_path.dsv\n'}
+[8.030150] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/environment/path.sh\n'}
+[8.030176] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/environment/path.dsv\n'}
+[8.030200] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/local_setup.bash\n'}
+[8.030242] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/local_setup.sh\n'}
+[8.030269] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/local_setup.zsh\n'}
+[8.030294] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/local_setup.dsv\n'}
+[8.030337] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/package.dsv\n'}
+[8.030365] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/ament_index/resource_index/packages/joy\n'}
+[8.030414] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/ament_index/resource_index/rclcpp_components/joy\n'}
+[8.030497] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/cmake/export_joyExport.cmake\n'}
+[8.030545] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake\n'}
+[8.030596] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/cmake/export_game_controllerExport.cmake\n'}
+[8.030643] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake\n'}
+[8.030687] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.030731] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.030774] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/cmake/joyConfig.cmake\n'}
+[8.030812] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/cmake/joyConfig-version.cmake\n'}
+[8.030854] (joy) StdoutLine: {'line': b'-- Installing: /home/peachji/F1tenth2024-main/vesc-humble/joy/install/joy/share/joy/package.xml\n'}
+[8.032116] (joy) CommandEnded: {'returncode': 0}
+[8.084289] (joy) JobEnded: {'identifier': 'joy', 'rc': 0}
+[8.084582] (-) EventReactorShutdown: {}

@@ -1,0 +1,14 @@
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/uninstall.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/joy_uninstall.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/joy.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/joy_node.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/game_controller.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/game_controller_node.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/joy_enumerate_devices.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/test.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/edit_cache.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/rebuild_cache.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/list_install_components.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/install.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/install/local.dir
+/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/install/strip.dir

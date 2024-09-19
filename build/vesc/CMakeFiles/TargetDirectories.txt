@@ -1,0 +1,9 @@
+/home/parallels/INC493/src/vesc-humble/build/vesc/CMakeFiles/uninstall.dir
+/home/parallels/INC493/src/vesc-humble/build/vesc/CMakeFiles/vesc_uninstall.dir
+/home/parallels/INC493/src/vesc-humble/build/vesc/CMakeFiles/test.dir
+/home/parallels/INC493/src/vesc-humble/build/vesc/CMakeFiles/edit_cache.dir
+/home/parallels/INC493/src/vesc-humble/build/vesc/CMakeFiles/rebuild_cache.dir
+/home/parallels/INC493/src/vesc-humble/build/vesc/CMakeFiles/list_install_components.dir
+/home/parallels/INC493/src/vesc-humble/build/vesc/CMakeFiles/install.dir
+/home/parallels/INC493/src/vesc-humble/build/vesc/CMakeFiles/install/local.dir
+/home/parallels/INC493/src/vesc-humble/build/vesc/CMakeFiles/install/strip.dir
