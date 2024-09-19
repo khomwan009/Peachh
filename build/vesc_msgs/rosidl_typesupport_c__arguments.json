@@ -1,12 +1,12 @@
 {
   "package_name": "vesc_msgs",
-  "output_dir": "/home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_typesupport_c/vesc_msgs",
+  "output_dir": "/home/peachji/peachF1/build/vesc_msgs/rosidl_typesupport_c/vesc_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescState.idl",
-    "/home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescStateStamped.idl",
-    "/home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescImu.idl",
-    "/home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescImuStamped.idl"
+    "/home/peachji/peachF1/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescState.idl",
+    "/home/peachji/peachF1/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescStateStamped.idl",
+    "/home/peachji/peachF1/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescImu.idl",
+    "/home/peachji/peachF1/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescImuStamped.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -68,6 +68,7 @@
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Vector3.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl",
+    "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Wrench.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl"
   ],
@@ -78,10 +79,10 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
-    "/home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_adapter/vesc_msgs/msg/VescState.idl",
-    "/home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_adapter/vesc_msgs/msg/VescStateStamped.idl",
-    "/home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_adapter/vesc_msgs/msg/VescImu.idl",
-    "/home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_adapter/vesc_msgs/msg/VescImuStamped.idl",
+    "/home/peachji/peachF1/build/vesc_msgs/rosidl_adapter/vesc_msgs/msg/VescState.idl",
+    "/home/peachji/peachF1/build/vesc_msgs/rosidl_adapter/vesc_msgs/msg/VescStateStamped.idl",
+    "/home/peachji/peachF1/build/vesc_msgs/rosidl_adapter/vesc_msgs/msg/VescImu.idl",
+    "/home/peachji/peachF1/build/vesc_msgs/rosidl_adapter/vesc_msgs/msg/VescImuStamped.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -141,6 +142,7 @@
     "/opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Vector3.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl",
+    "/opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Wrench.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl"
   ]

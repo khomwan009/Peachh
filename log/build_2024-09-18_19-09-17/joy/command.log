@@ -1,1 +1,0 @@
-Invoking command in '/home/peachji/F1tenth2024-main/vesc-humble/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/peachji/F1tenth2024-main/vesc-humble/joy -DCMAKE_INSTALL_PREFIX=/home/peachji/F1tenth2024-main/vesc-humble/install/joy

@@ -1,0 +1,6 @@
+Invoking command in '/home/peachji/peachF1/build/joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/peachji/peachF1/joy -DCMAKE_INSTALL_PREFIX=/home/peachji/peachF1/install/joy
+Invoked command in '/home/peachji/peachF1/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/peachji/peachF1/joy -DCMAKE_INSTALL_PREFIX=/home/peachji/peachF1/install/joy
+Invoking command in '/home/peachji/peachF1/build/joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/peachji/peachF1/build/joy -- -j16 -l16
+Invoked command in '/home/peachji/peachF1/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/peachji/peachF1/build/joy -- -j16 -l16
+Invoking command in '/home/peachji/peachF1/build/joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/peachji/peachF1/build/joy
+Invoked command in '/home/peachji/peachF1/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/peachji/peachF1/build/joy

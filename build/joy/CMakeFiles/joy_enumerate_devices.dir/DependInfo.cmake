@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/peachji/F1tenth2024-main/vesc-humble/joy/src/joy_enumerate_devices.cpp" "CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o" "gcc" "CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o.d"
+  "/home/peachji/peachF1/joy/src/joy_enumerate_devices.cpp" "CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o" "gcc" "CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o.d"
   )
 
 # Targets to which this target links.

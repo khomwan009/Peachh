@@ -1,2 +1,0 @@
-Invoking command in '/home/peachji/F1tenth2024-main/vesc-humble/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peachji/F1tenth2024-main/vesc-humble/build/vesc_msgs -- -j16 -l16
-Invoked command in '/home/peachji/F1tenth2024-main/vesc-humble/build/vesc_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peachji/F1tenth2024-main/vesc-humble/build/vesc_msgs -- -j16 -l16

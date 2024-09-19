@@ -1,8 +1,8 @@
-# Install script for directory: /home/parallels/INC493/src/vesc-humble/build/vesc_msgs/vesc_msgs__py
+# Install script for directory: /home/peachji/peachF1/build/vesc_msgs/vesc_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/parallels/INC493/src/vesc-humble/install/vesc_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/peachji/peachF1/install/vesc_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

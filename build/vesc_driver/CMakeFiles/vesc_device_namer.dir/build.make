@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/INC493/src/vesc-humble/vesc_driver
+CMAKE_SOURCE_DIR = /home/peachji/peachF1/vesc_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/INC493/src/vesc-humble/build/vesc_driver
+CMAKE_BINARY_DIR = /home/peachji/peachF1/build/vesc_driver
 
 # Include any dependencies generated for this target.
 include CMakeFiles/vesc_device_namer.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/vesc_device_namer.dir/progress.make
 include CMakeFiles/vesc_device_namer.dir/flags.make
 
 CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o: CMakeFiles/vesc_device_namer.dir/flags.make
-CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o: /home/parallels/INC493/src/vesc-humble/vesc_driver/src/vesc_device_namer.cpp
+CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o: /home/peachji/peachF1/vesc_driver/src/vesc_device_namer.cpp
 CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o: CMakeFiles/vesc_device_namer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/INC493/src/vesc-humble/build/vesc_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o -MF CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o.d -o CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o -c /home/parallels/INC493/src/vesc-humble/vesc_driver/src/vesc_device_namer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peachji/peachF1/build/vesc_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o -MF CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o.d -o CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o -c /home/peachji/peachF1/vesc_driver/src/vesc_device_namer.cpp
 
 CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/INC493/src/vesc-humble/vesc_driver/src/vesc_device_namer.cpp > CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/peachji/peachF1/vesc_driver/src/vesc_device_namer.cpp > CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.i
 
 CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/INC493/src/vesc-humble/vesc_driver/src/vesc_device_namer.cpp -o CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/peachji/peachF1/vesc_driver/src/vesc_device_namer.cpp -o CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.s
 
 CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o: CMakeFiles/vesc_device_namer.dir/flags.make
-CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o: /home/parallels/INC493/src/vesc-humble/vesc_driver/src/vesc_device_uuid_lookup.cpp
+CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o: /home/peachji/peachF1/vesc_driver/src/vesc_device_uuid_lookup.cpp
 CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o: CMakeFiles/vesc_device_namer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/INC493/src/vesc-humble/build/vesc_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o -MF CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o.d -o CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o -c /home/parallels/INC493/src/vesc-humble/vesc_driver/src/vesc_device_uuid_lookup.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peachji/peachF1/build/vesc_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o -MF CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o.d -o CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o -c /home/peachji/peachF1/vesc_driver/src/vesc_device_uuid_lookup.cpp
 
 CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/INC493/src/vesc-humble/vesc_driver/src/vesc_device_uuid_lookup.cpp > CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/peachji/peachF1/vesc_driver/src/vesc_device_uuid_lookup.cpp > CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.i
 
 CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/INC493/src/vesc-humble/vesc_driver/src/vesc_device_uuid_lookup.cpp -o CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/peachji/peachF1/vesc_driver/src/vesc_device_uuid_lookup.cpp -o CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.s
 
 # Object files for target vesc_device_namer
 vesc_device_namer_OBJECTS = \
@@ -110,100 +110,25 @@ vesc_device_namer: CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.
 vesc_device_namer: CMakeFiles/vesc_device_namer.dir/build.make
 vesc_device_namer: libvesc_driver.so
 vesc_device_namer: /opt/ros/humble/lib/libcomponent_manager.so
-vesc_device_namer: /home/parallels/INC493/src/vesc-humble/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so
-vesc_device_namer: /home/parallels/INC493/src/vesc-humble/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so
-vesc_device_namer: /home/parallels/INC493/src/vesc-humble/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so
-vesc_device_namer: /home/parallels/INC493/src/vesc-humble/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so
-vesc_device_namer: /home/parallels/INC493/src/vesc-humble/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so
-vesc_device_namer: /home/parallels/INC493/src/vesc-humble/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_py.so
+vesc_device_namer: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so
+vesc_device_namer: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so
+vesc_device_namer: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so
+vesc_device_namer: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so
+vesc_device_namer: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so
+vesc_device_namer: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_py.so
 vesc_device_namer: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 vesc_device_namer: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 vesc_device_namer: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 vesc_device_namer: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 vesc_device_namer: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-vesc_device_namer: /opt/ros/humble/lib/libudp_msgs__rosidl_generator_c.so
-vesc_device_namer: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_fastrtps_c.so
-vesc_device_namer: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_fastrtps_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_introspection_c.so
-vesc_device_namer: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_c.so
-vesc_device_namer: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_introspection_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libudp_msgs__rosidl_generator_py.so
-vesc_device_namer: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_c.so
-vesc_device_namer: /opt/ros/humble/lib/libio_context.so
 vesc_device_namer: /opt/ros/humble/lib/librclcpp.so
-vesc_device_namer: /opt/ros/humble/lib/libcomponent_manager.so
-vesc_device_namer: /opt/ros/humble/lib/libclass_loader.so
-vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
-vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
-vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_py.so
-vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
-vesc_device_namer: /opt/ros/humble/lib/librmw.so
-vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/librcpputils.so
-vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_c.so
-vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/librcl.so
-vesc_device_namer: /opt/ros/humble/lib/librcutils.so
-vesc_device_namer: /opt/ros/humble/lib/librosidl_runtime_c.so
-vesc_device_namer: /opt/ros/humble/lib/libtracetools.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_lifecycle.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
-vesc_device_namer: /opt/ros/humble/lib/librclcpp_lifecycle.so
-vesc_device_namer: /opt/ros/humble/lib/librclcpp.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_lifecycle.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-vesc_device_namer: /usr/lib/aarch64-linux-gnu/libpython3.10.so
-vesc_device_namer: /opt/ros/humble/lib/libserial_driver.so
-vesc_device_namer: /opt/ros/humble/lib/libserial_driver_nodes.so
-vesc_device_namer: /home/parallels/INC493/src/vesc-humble/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so
-vesc_device_namer: /home/parallels/INC493/src/vesc-humble/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so
-vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-vesc_device_namer: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
-vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-vesc_device_namer: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
-vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-vesc_device_namer: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-vesc_device_namer: /opt/ros/humble/lib/libudp_msgs__rosidl_generator_c.so
-vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 vesc_device_namer: /opt/ros/humble/lib/liblibstatistics_collector.so
+vesc_device_namer: /opt/ros/humble/lib/librcl.so
+vesc_device_namer: /opt/ros/humble/lib/librmw_implementation.so
+vesc_device_namer: /opt/ros/humble/lib/librcl_logging_spdlog.so
+vesc_device_namer: /opt/ros/humble/lib/librcl_logging_interface.so
+vesc_device_namer: /opt/ros/humble/lib/librcl_yaml_param_parser.so
+vesc_device_namer: /opt/ros/humble/lib/libyaml.so
 vesc_device_namer: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
 vesc_device_namer: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
 vesc_device_namer: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
@@ -220,49 +145,69 @@ vesc_device_namer: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cp
 vesc_device_namer: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
 vesc_device_namer: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
 vesc_device_namer: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
-vesc_device_namer: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
-vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so
-vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so
-vesc_device_namer: /opt/ros/humble/lib/librcl.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_yaml_param_parser.so
-vesc_device_namer: /opt/ros/humble/lib/libyaml.so
-vesc_device_namer: /opt/ros/humble/lib/librmw_implementation.so
-vesc_device_namer: /opt/ros/humble/lib/libament_index_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_logging_spdlog.so
-vesc_device_namer: /opt/ros/humble/lib/librcl_logging_interface.so
 vesc_device_namer: /opt/ros/humble/lib/libtracetools.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so
-vesc_device_namer: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so
+vesc_device_namer: /opt/ros/humble/lib/libament_index_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/libclass_loader.so
+vesc_device_namer: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
+vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
+vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
+vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
+vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_py.so
+vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
+vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so
+vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
+vesc_device_namer: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so
+vesc_device_namer: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
+vesc_device_namer: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so
+vesc_device_namer: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so
+vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 vesc_device_namer: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 vesc_device_namer: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 vesc_device_namer: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 vesc_device_namer: /opt/ros/humble/lib/librmw.so
+vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 vesc_device_namer: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 vesc_device_namer: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-vesc_device_namer: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+vesc_device_namer: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
+vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+vesc_device_namer: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 vesc_device_namer: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 vesc_device_namer: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+vesc_device_namer: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+vesc_device_namer: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+vesc_device_namer: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 vesc_device_namer: /opt/ros/humble/lib/librosidl_typesupport_c.so
 vesc_device_namer: /opt/ros/humble/lib/librcpputils.so
-vesc_device_namer: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 vesc_device_namer: /opt/ros/humble/lib/librosidl_runtime_c.so
 vesc_device_namer: /opt/ros/humble/lib/librcutils.so
-vesc_device_namer: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 vesc_device_namer: CMakeFiles/vesc_device_namer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/INC493/src/vesc-humble/build/vesc_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable vesc_device_namer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/peachji/peachF1/build/vesc_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable vesc_device_namer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vesc_device_namer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -274,6 +219,6 @@ CMakeFiles/vesc_device_namer.dir/clean:
 .PHONY : CMakeFiles/vesc_device_namer.dir/clean
 
 CMakeFiles/vesc_device_namer.dir/depend:
-	cd /home/parallels/INC493/src/vesc-humble/build/vesc_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/INC493/src/vesc-humble/vesc_driver /home/parallels/INC493/src/vesc-humble/vesc_driver /home/parallels/INC493/src/vesc-humble/build/vesc_driver /home/parallels/INC493/src/vesc-humble/build/vesc_driver /home/parallels/INC493/src/vesc-humble/build/vesc_driver/CMakeFiles/vesc_device_namer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/peachji/peachF1/build/vesc_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peachji/peachF1/vesc_driver /home/peachji/peachF1/vesc_driver /home/peachji/peachF1/build/vesc_driver /home/peachji/peachF1/build/vesc_driver /home/peachji/peachF1/build/vesc_driver/CMakeFiles/vesc_device_namer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/vesc_device_namer.dir/depend
 

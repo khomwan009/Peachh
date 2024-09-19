@@ -1,0 +1,25 @@
+[01m[K/home/peachji/peachF1/vesc_driver/src/vesc_interface.cpp:45:10:[m[K [01;31m[Kfatal error: [m[Kserial_driver/serial_driver.hpp: No such file or directory
+   45 | #include [01;31m[K"serial_driver/serial_driver.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/vesc_driver.dir/build.make:90: CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:[m[K In constructor ‘[01m[Kvesc_driver::VescDriver::VescDriver(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:88:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_sub_[m[K’ was not declared in this scope
+   88 | [01;31m[Kcmd_vel_sub_[m[K = this->create_subscription<geometry_msgs::msg::Twist>("/cmd_vel", 10, std::bind(&VescDriver::cmdVelCallback, this, std::placeholders::_1));
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:88:108:[m[K [01;31m[Kerror: [m[K‘[01m[KcmdVelCallback[m[K’ is not a member of ‘[01m[Kvesc_driver::VescDriver[m[K’
+   88 | cmd_vel_sub_ = this->create_subscription<geometry_msgs::msg::Twist>("/cmd_vel", 10, std::bind(&VescDriver::[01;31m[KcmdVelCallback[m[K, this, std::placeholders::_1));
+      |                                                                                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:[m[K At global scope:
+[01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:393:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid vesc_driver::VescDriver::cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’
+  393 | void [01;31m[KVescDriver[m[K::cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr cmd_vel)
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:393:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid vesc_driver::VescDriver::cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’
+In file included from [01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:31[m[K:
+[01m[K/home/peachji/peachF1/vesc_driver/include/vesc_driver/vesc_driver.hpp:60:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass vesc_driver::VescDriver[m[K’ defined here
+   60 | class [01;36m[KVescDriver[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/vesc_driver.dir/build.make:76: CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/vesc_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

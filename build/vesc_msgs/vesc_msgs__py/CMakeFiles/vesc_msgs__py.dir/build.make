@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/INC493/src/vesc-humble/vesc_msgs
+CMAKE_SOURCE_DIR = /home/peachji/peachF1/vesc_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/INC493/src/vesc-humble/build/vesc_msgs
+CMAKE_BINARY_DIR = /home/peachji/peachF1/build/vesc_msgs
 
 # Utility rule file for vesc_msgs__py.
 
@@ -155,10 +155,11 @@ rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /
 rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
 rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
 rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parallels/INC493/src/vesc-humble/build/vesc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/parallels/INC493/src/vesc-humble/build/vesc_msgs/vesc_msgs__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/peachji/peachF1/build/vesc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/peachji/peachF1/build/vesc_msgs/vesc_msgs__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/peachji/peachF1/build/vesc_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c
@@ -214,10 +215,10 @@ vesc_msgs__py/CMakeFiles/vesc_msgs__py.dir/build: vesc_msgs__py
 .PHONY : vesc_msgs__py/CMakeFiles/vesc_msgs__py.dir/build
 
 vesc_msgs__py/CMakeFiles/vesc_msgs__py.dir/clean:
-	cd /home/parallels/INC493/src/vesc-humble/build/vesc_msgs/vesc_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/vesc_msgs__py.dir/cmake_clean.cmake
+	cd /home/peachji/peachF1/build/vesc_msgs/vesc_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/vesc_msgs__py.dir/cmake_clean.cmake
 .PHONY : vesc_msgs__py/CMakeFiles/vesc_msgs__py.dir/clean
 
 vesc_msgs__py/CMakeFiles/vesc_msgs__py.dir/depend:
-	cd /home/parallels/INC493/src/vesc-humble/build/vesc_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/INC493/src/vesc-humble/vesc_msgs /home/parallels/INC493/src/vesc-humble/build/vesc_msgs/vesc_msgs__py /home/parallels/INC493/src/vesc-humble/build/vesc_msgs /home/parallels/INC493/src/vesc-humble/build/vesc_msgs/vesc_msgs__py /home/parallels/INC493/src/vesc-humble/build/vesc_msgs/vesc_msgs__py/CMakeFiles/vesc_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/peachji/peachF1/build/vesc_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peachji/peachF1/vesc_msgs /home/peachji/peachF1/build/vesc_msgs/vesc_msgs__py /home/peachji/peachF1/build/vesc_msgs /home/peachji/peachF1/build/vesc_msgs/vesc_msgs__py /home/peachji/peachF1/build/vesc_msgs/vesc_msgs__py/CMakeFiles/vesc_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vesc_msgs__py/CMakeFiles/vesc_msgs__py.dir/depend
 

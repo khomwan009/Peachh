@@ -1,8 +1,8 @@
-# Install script for directory: /home/peachji/F1tenth2024-main/vesc-humble/joy
+# Install script for directory: /home/peachji/peachF1/joy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/peachji/F1tenth2024-main/vesc-humble/install/joy")
+  set(CMAKE_INSTALL_PREFIX "/home/peachji/peachF1/install/joy")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libjoy.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/libjoy.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/peachji/peachF1/build/joy/libjoy.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libjoy.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libjoy.so")
     file(RPATH_CHANGE
@@ -72,7 +72,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy/joy_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy" TYPE EXECUTABLE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/joy_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy" TYPE EXECUTABLE FILES "/home/peachji/peachF1/build/joy/joy_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy/joy_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy/joy_node")
     file(RPATH_CHANGE
@@ -92,7 +92,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgame_controller.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/libgame_controller.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/peachji/peachF1/build/joy/libgame_controller.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgame_controller.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgame_controller.so")
     file(RPATH_CHANGE
@@ -115,7 +115,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy/game_controller_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy" TYPE EXECUTABLE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/game_controller_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy" TYPE EXECUTABLE FILES "/home/peachji/peachF1/build/joy/game_controller_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy/game_controller_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy/game_controller_node")
     file(RPATH_CHANGE
@@ -135,7 +135,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy/joy_enumerate_devices"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy" TYPE EXECUTABLE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/joy_enumerate_devices")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy" TYPE EXECUTABLE FILES "/home/peachji/peachF1/build/joy/joy_enumerate_devices")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy/joy_enumerate_devices" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy/joy_enumerate_devices")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -145,22 +145,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/joy" TYPE DIRECTORY FILES "/home/peachji/F1tenth2024-main/vesc-humble/joy/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/joy" TYPE DIRECTORY FILES "/home/peachji/peachF1/joy/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE DIRECTORY FILES
-    "/home/peachji/F1tenth2024-main/vesc-humble/joy/config"
-    "/home/peachji/F1tenth2024-main/vesc-humble/joy/launch"
+    "/home/peachji/peachF1/joy/config"
+    "/home/peachji/peachF1/joy/launch"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/joy")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/joy")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/joy")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/joy")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -168,7 +168,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/environment" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/environment" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -176,42 +176,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/environment" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/environment" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_index/share/ament_index/resource_index/packages/joy")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_index/share/ament_index/resource_index/packages/joy")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/joy")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/joy")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/joy/cmake/export_joyExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/joy/cmake/export_joyExport.cmake"
-         "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/Export/share/joy/cmake/export_joyExport.cmake")
+         "/home/peachji/peachF1/build/joy/CMakeFiles/Export/share/joy/cmake/export_joyExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/joy/cmake/export_joyExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -220,9 +220,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/Export/share/joy/cmake/export_joyExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES "/home/peachji/peachF1/build/joy/CMakeFiles/Export/share/joy/cmake/export_joyExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/Export/share/joy/cmake/export_joyExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES "/home/peachji/peachF1/build/joy/CMakeFiles/Export/share/joy/cmake/export_joyExport-noconfig.cmake")
   endif()
 endif()
 
@@ -230,7 +230,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/joy/cmake/export_game_controllerExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/joy/cmake/export_game_controllerExport.cmake"
-         "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/Export/share/joy/cmake/export_game_controllerExport.cmake")
+         "/home/peachji/peachF1/build/joy/CMakeFiles/Export/share/joy/cmake/export_game_controllerExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/joy/cmake/export_game_controllerExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -239,29 +239,29 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/Export/share/joy/cmake/export_game_controllerExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES "/home/peachji/peachF1/build/joy/CMakeFiles/Export/share/joy/cmake/export_game_controllerExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/Export/share/joy/cmake/export_game_controllerExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES "/home/peachji/peachF1/build/joy/CMakeFiles/Export/share/joy/cmake/export_game_controllerExport-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES "/home/peachji/peachF1/build/joy/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES
-    "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_core/joyConfig.cmake"
-    "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_core/joyConfig-version.cmake"
+    "/home/peachji/peachF1/build/joy/ament_cmake_core/joyConfig.cmake"
+    "/home/peachji/peachF1/build/joy/ament_cmake_core/joyConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/peachji/F1tenth2024-main/vesc-humble/joy/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/peachji/peachF1/joy/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -272,5 +272,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/peachji/F1tenth2024-main/vesc-humble/build/joy/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/peachji/peachF1/build/joy/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

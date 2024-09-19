@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/peachji/F1tenth2024-main/vesc-humble/joy
+CMAKE_SOURCE_DIR = /home/peachji/peachF1/joy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/peachji/F1tenth2024-main/vesc-humble/build/joy
+CMAKE_BINARY_DIR = /home/peachji/peachF1/build/joy
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game_controller_node.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/game_controller_node.dir/flags.make
 CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o: CMakeFiles/game_controller_node.dir/flags.make
 CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o: rclcpp_components/node_main_game_controller_node.cpp
 CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o: CMakeFiles/game_controller_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o -MF CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o.d -o CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o -c /home/peachji/F1tenth2024-main/vesc-humble/build/joy/rclcpp_components/node_main_game_controller_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peachji/peachF1/build/joy/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o -MF CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o.d -o CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o -c /home/peachji/peachF1/build/joy/rclcpp_components/node_main_game_controller_node.cpp
 
 CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/peachji/F1tenth2024-main/vesc-humble/build/joy/rclcpp_components/node_main_game_controller_node.cpp > CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/peachji/peachF1/build/joy/rclcpp_components/node_main_game_controller_node.cpp > CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.i
 
 CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/peachji/F1tenth2024-main/vesc-humble/build/joy/rclcpp_components/node_main_game_controller_node.cpp -o CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/peachji/peachF1/build/joy/rclcpp_components/node_main_game_controller_node.cpp -o CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.s
 
 # Object files for target game_controller_node
 game_controller_node_OBJECTS = \
@@ -158,7 +158,7 @@ game_controller_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 game_controller_node: /opt/ros/humble/lib/librcutils.so
 game_controller_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 game_controller_node: CMakeFiles/game_controller_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable game_controller_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/peachji/peachF1/build/joy/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable game_controller_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game_controller_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/game_controller_node.dir/clean:
 .PHONY : CMakeFiles/game_controller_node.dir/clean
 
 CMakeFiles/game_controller_node.dir/depend:
-	cd /home/peachji/F1tenth2024-main/vesc-humble/build/joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peachji/F1tenth2024-main/vesc-humble/joy /home/peachji/F1tenth2024-main/vesc-humble/joy /home/peachji/F1tenth2024-main/vesc-humble/build/joy /home/peachji/F1tenth2024-main/vesc-humble/build/joy /home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/game_controller_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/peachji/peachF1/build/joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peachji/peachF1/joy /home/peachji/peachF1/joy /home/peachji/peachF1/build/joy /home/peachji/peachF1/build/joy /home/peachji/peachF1/build/joy/CMakeFiles/game_controller_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/game_controller_node.dir/depend
 

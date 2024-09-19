@@ -1,0 +1,81 @@
+[0.008s] Invoking command in '/home/peachji/peachF1/build/vesc_driver': AMENT_PREFIX_PATH=/home/peachji/peachF1/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peachji/peachF1/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/peachji/peachF1/install/vesc_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/peachji/peachF1/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/peachji/peachF1/install/vesc_driver
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.187s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.258s] -- Detecting CXX compiler ABI info - done
+[0.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.406s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.572s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.576s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.583s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.592s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.640s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.642s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.717s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.744s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.790s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.796s] -- Looking for pthread.h
+[0.862s] -- Looking for pthread.h - found
+[0.863s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.935s] -- Found Threads: TRUE  
+[1.049s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.065s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.066s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.066s] -- Configured cppcheck include dirs: /home/peachji/peachF1/vesc_driver/include
+[1.066s] -- Configured cppcheck exclude dirs and/or files: 
+[1.067s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.067s] -- Configured cpplint exclude dirs and/or files: 
+[1.067s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.067s] -- Added test 'lint_cmake' to check CMake code style
+[1.068s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.069s] -- Added test 'uncrustify' to check C / C++ code style
+[1.069s] -- Configured uncrustify additional arguments: 
+[1.069s] -- Added test 'xmllint' to check XML markup files
+[1.070s] -- Configuring done
+[1.084s] -- Generating done
+[1.085s] -- Build files have been written to: /home/peachji/peachF1/build/vesc_driver
+[1.094s] Invoked command in '/home/peachji/peachF1/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/peachji/peachF1/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peachji/peachF1/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/peachji/peachF1/install/vesc_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/peachji/peachF1/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/peachji/peachF1/install/vesc_driver
+[1.096s] Invoking command in '/home/peachji/peachF1/build/vesc_driver': AMENT_PREFIX_PATH=/home/peachji/peachF1/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peachji/peachF1/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/peachji/peachF1/install/vesc_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peachji/peachF1/build/vesc_driver -- -j16 -l16
+[1.151s] [ 30%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o[0m
+[1.151s] [ 30%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o[0m
+[1.151s] [ 30%] [32mBuilding CXX object CMakeFiles/vesc_driver_node.dir/rclcpp_components/node_main_vesc_driver_node.cpp.o[0m
+[1.151s] [ 40%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet.cpp.o[0m
+[1.151s] [ 50%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.o[0m
+[1.315s] [01m[K/home/peachji/peachF1/vesc_driver/src/vesc_interface.cpp:45:10:[m[K [01;31m[Kfatal error: [m[Kserial_driver/serial_driver.hpp: No such file or directory
+[1.315s]    45 | #include [01;31m[K"serial_driver/serial_driver.hpp"[m[K
+[1.315s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.315s] compilation terminated.
+[1.317s] gmake[2]: *** [CMakeFiles/vesc_driver.dir/build.make:90: CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o] Error 1
+[1.317s] gmake[2]: *** Waiting for unfinished jobs....
+[3.858s] [01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:[m[K In constructor ‘[01m[Kvesc_driver::VescDriver::VescDriver(const rclcpp::NodeOptions&)[m[K’:
+[3.858s] [01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:88:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_sub_[m[K’ was not declared in this scope
+[3.858s]    88 | [01;31m[Kcmd_vel_sub_[m[K = this->create_subscription<geometry_msgs::msg::Twist>("/cmd_vel", 10, std::bind(&VescDriver::cmdVelCallback, this, std::placeholders::_1));
+[3.858s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[3.858s] [01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:88:108:[m[K [01;31m[Kerror: [m[K‘[01m[KcmdVelCallback[m[K’ is not a member of ‘[01m[Kvesc_driver::VescDriver[m[K’
+[3.858s]    88 | cmd_vel_sub_ = this->create_subscription<geometry_msgs::msg::Twist>("/cmd_vel", 10, std::bind(&VescDriver::[01;31m[KcmdVelCallback[m[K, this, std::placeholders::_1));
+[3.858s]       |                                                                                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.934s] [01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:[m[K At global scope:
+[3.934s] [01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:393:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid vesc_driver::VescDriver::cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’
+[3.934s]   393 | void [01;31m[KVescDriver[m[K::cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr cmd_vel)
+[3.935s]       |      [01;31m[K^~~~~~~~~~[m[K
+[3.935s] [01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:393:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid vesc_driver::VescDriver::cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’
+[3.935s] In file included from [01m[K/home/peachji/peachF1/vesc_driver/src/vesc_driver.cpp:31[m[K:
+[3.935s] [01m[K/home/peachji/peachF1/vesc_driver/include/vesc_driver/vesc_driver.hpp:60:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass vesc_driver::VescDriver[m[K’ defined here
+[3.935s]    60 | class [01;36m[KVescDriver[m[K : public rclcpp::Node
+[3.935s]       |       [01;36m[K^~~~~~~~~~[m[K
+[7.246s] [ 60%] [32m[1mLinking CXX executable vesc_driver_node[0m
+[7.654s] [ 60%] Built target vesc_driver_node
+[10.130s] gmake[2]: *** [CMakeFiles/vesc_driver.dir/build.make:76: CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o] Error 1
+[10.130s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/vesc_driver.dir/all] Error 2
+[10.131s] gmake: *** [Makefile:146: all] Error 2
+[10.142s] Invoked command in '/home/peachji/peachF1/build/vesc_driver' returned '2': AMENT_PREFIX_PATH=/home/peachji/peachF1/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peachji/peachF1/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/peachji/peachF1/install/vesc_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peachji/peachF1/build/vesc_driver -- -j16 -l16

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/INC493/src/vesc-humble/vesc_msgs
+CMAKE_SOURCE_DIR = /home/peachji/peachF1/vesc_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/INC493/src/vesc-humble/build/vesc_msgs
+CMAKE_BINARY_DIR = /home/peachji/peachF1/build/vesc_msgs
 
 # Utility rule file for vesc_msgs.
 
@@ -66,10 +66,10 @@ include CMakeFiles/vesc_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/vesc_msgs.dir/progress.make
 
-CMakeFiles/vesc_msgs: /home/parallels/INC493/src/vesc-humble/vesc_msgs/msg/VescState.msg
-CMakeFiles/vesc_msgs: /home/parallels/INC493/src/vesc-humble/vesc_msgs/msg/VescStateStamped.msg
-CMakeFiles/vesc_msgs: /home/parallels/INC493/src/vesc-humble/vesc_msgs/msg/VescImu.msg
-CMakeFiles/vesc_msgs: /home/parallels/INC493/src/vesc-humble/vesc_msgs/msg/VescImuStamped.msg
+CMakeFiles/vesc_msgs: /home/peachji/peachF1/vesc_msgs/msg/VescState.msg
+CMakeFiles/vesc_msgs: /home/peachji/peachF1/vesc_msgs/msg/VescStateStamped.msg
+CMakeFiles/vesc_msgs: /home/peachji/peachF1/vesc_msgs/msg/VescImu.msg
+CMakeFiles/vesc_msgs: /home/peachji/peachF1/vesc_msgs/msg/VescImuStamped.msg
 CMakeFiles/vesc_msgs: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/vesc_msgs: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/vesc_msgs: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -129,6 +129,7 @@ CMakeFiles/vesc_msgs: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianc
 CMakeFiles/vesc_msgs: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
 CMakeFiles/vesc_msgs: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
 CMakeFiles/vesc_msgs: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
+CMakeFiles/vesc_msgs: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
 CMakeFiles/vesc_msgs: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 CMakeFiles/vesc_msgs: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 
@@ -145,6 +146,6 @@ CMakeFiles/vesc_msgs.dir/clean:
 .PHONY : CMakeFiles/vesc_msgs.dir/clean
 
 CMakeFiles/vesc_msgs.dir/depend:
-	cd /home/parallels/INC493/src/vesc-humble/build/vesc_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/INC493/src/vesc-humble/vesc_msgs /home/parallels/INC493/src/vesc-humble/vesc_msgs /home/parallels/INC493/src/vesc-humble/build/vesc_msgs /home/parallels/INC493/src/vesc-humble/build/vesc_msgs /home/parallels/INC493/src/vesc-humble/build/vesc_msgs/CMakeFiles/vesc_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/peachji/peachF1/build/vesc_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peachji/peachF1/vesc_msgs /home/peachji/peachF1/vesc_msgs /home/peachji/peachF1/build/vesc_msgs /home/peachji/peachF1/build/vesc_msgs /home/peachji/peachF1/build/vesc_msgs/CMakeFiles/vesc_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/vesc_msgs.dir/depend
 

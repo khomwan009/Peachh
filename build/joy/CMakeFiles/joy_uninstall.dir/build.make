@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/peachji/F1tenth2024-main/vesc-humble/joy
+CMAKE_SOURCE_DIR = /home/peachji/peachF1/joy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/peachji/F1tenth2024-main/vesc-humble/build/joy
+CMAKE_BINARY_DIR = /home/peachji/peachF1/build/joy
 
 # Utility rule file for joy_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/joy_uninstall.dir/compiler_depend.make
 include CMakeFiles/joy_uninstall.dir/progress.make
 
 CMakeFiles/joy_uninstall:
-	/usr/bin/cmake -P /home/peachji/F1tenth2024-main/vesc-humble/build/joy/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/peachji/peachF1/build/joy/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 joy_uninstall: CMakeFiles/joy_uninstall
 joy_uninstall: CMakeFiles/joy_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/joy_uninstall.dir/clean:
 .PHONY : CMakeFiles/joy_uninstall.dir/clean
 
 CMakeFiles/joy_uninstall.dir/depend:
-	cd /home/peachji/F1tenth2024-main/vesc-humble/build/joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peachji/F1tenth2024-main/vesc-humble/joy /home/peachji/F1tenth2024-main/vesc-humble/joy /home/peachji/F1tenth2024-main/vesc-humble/build/joy /home/peachji/F1tenth2024-main/vesc-humble/build/joy /home/peachji/F1tenth2024-main/vesc-humble/build/joy/CMakeFiles/joy_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/peachji/peachF1/build/joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peachji/peachF1/joy /home/peachji/peachF1/joy /home/peachji/peachF1/build/joy /home/peachji/peachF1/build/joy /home/peachji/peachF1/build/joy/CMakeFiles/joy_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/joy_uninstall.dir/depend
 

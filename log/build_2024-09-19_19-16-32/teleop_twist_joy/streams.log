@@ -1,0 +1,58 @@
+[0.040s] Invoking command in '/home/peachji/peachF1/build/teleop_twist_joy': AMENT_PREFIX_PATH=/home/peachji/peachF1/install/joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peachji/peachF1/install/joy:/opt/ros/humble LD_LIBRARY_PATH=/home/peachji/peachF1/install/joy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/peachji/peachF1/teleop_twist_joy-humble -DCMAKE_INSTALL_PREFIX=/home/peachji/peachF1/install/teleop_twist_joy
+[0.207s] -- The C compiler identification is GNU 11.4.0
+[0.331s] -- The CXX compiler identification is GNU 11.4.0
+[0.360s] -- Detecting C compiler ABI info
+[0.573s] -- Detecting C compiler ABI info - done
+[0.593s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.593s] -- Detecting C compile features
+[0.594s] -- Detecting C compile features - done
+[0.601s] -- Detecting CXX compiler ABI info
+[0.810s] -- Detecting CXX compiler ABI info - done
+[0.844s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.845s] -- Detecting CXX compile features
+[0.849s] -- Detecting CXX compile features - done
+[0.860s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.440s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.798s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.921s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.931s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.951s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.971s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.005s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.085s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.157s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.163s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.386s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.487s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.630s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.659s] -- Looking for pthread.h
+[2.911s] -- Looking for pthread.h - found
+[2.915s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.175s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.183s] -- Found Threads: TRUE  
+[3.332s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.387s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.431s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[3.655s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[3.656s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[3.928s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[3.928s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[4.220s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[4.232s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.581s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.667s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.681s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.681s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.681s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.681s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.774s] -- Found PythonExtra: .so  
+[4.849s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.850s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/peachji/peachF1/teleop_twist_joy-humble/include>
+[4.850s] -- Configured cppcheck exclude dirs and/or files: 
+[4.851s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.859s] -- Added test 'lint_cmake' to check CMake code style
+[4.859s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.859s] -- Added test 'xmllint' to check XML markup files
+[4.871s] -- Configuring done
+[4.903s] -- Generating done
+[4.906s] -- Build files have been written to: /home/peachji/peachF1/build/teleop_twist_joy

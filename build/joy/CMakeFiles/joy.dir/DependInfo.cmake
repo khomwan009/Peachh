@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/peachji/F1tenth2024-main/vesc-humble/joy/src/joy.cpp" "CMakeFiles/joy.dir/src/joy.cpp.o" "gcc" "CMakeFiles/joy.dir/src/joy.cpp.o.d"
+  "/home/peachji/peachF1/joy/src/joy.cpp" "CMakeFiles/joy.dir/src/joy.cpp.o" "gcc" "CMakeFiles/joy.dir/src/joy.cpp.o.d"
   )
 
 # Targets to which this target links.

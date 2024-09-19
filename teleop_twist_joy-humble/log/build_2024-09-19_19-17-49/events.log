@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.000226] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.004382] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[0.004538] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '/home/peachji/peachF1/teleop_twist_joy-humble', '-DCMAKE_INSTALL_PREFIX=/home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy'], 'cwd': '/home/peachji/peachF1/teleop_twist_joy-humble/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'peachji'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/peachji'), ('OLDPWD', '/home/peachji/peachF1'), ('DESKTOP_SESSION', 'ubuntu'), ('EMW_IMPLENTATION', 'rmw_cyclonedds_cpp'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1761'), ('SYSTEMD_EXEC_PID', '2105'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4762'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'peachji'), ('JOURNAL_STREAM', '8:9737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'peachji'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/PeachJi:@/tmp/.ICE-unix/1913,unix/PeachJi:/tmp/.ICE-unix/1913'), ('INVOCATION_ID', 'd75535991f434c8cb4ffd9b9eeaa1f7d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WR1XT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9474a722-e545-4070-85b9-53fd96c664e6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/peachji/peachF1/teleop_twist_joy-humble/build/teleop_twist_joy'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.046569] (teleop_twist_joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.083510] (teleop_twist_joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.087722] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099558] (-) TimerEvent: {}
+[0.141128] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.145208] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.145366] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.145568] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.147262] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199822] (-) TimerEvent: {}
+[0.212081] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.219491] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.219752] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.220343] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.222265] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299939] (-) TimerEvent: {}
+[0.335594] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.386714] (teleop_twist_joy) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.400157] (-) TimerEvent: {}
+[0.406012] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.408526] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.413050] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.419294] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.428960] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.450504] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.470035] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.471522] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500320] (-) TimerEvent: {}
+[0.533235] (teleop_twist_joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.555512] (teleop_twist_joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.580015] (teleop_twist_joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.584205] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600526] (-) TimerEvent: {}
+[0.640438] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.640590] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700632] (-) TimerEvent: {}
+[0.701258] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.702365] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.725027] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.740194] (teleop_twist_joy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.750622] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[0.800820] (-) TimerEvent: {}
+[0.806055] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[0.806302] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[0.876163] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[0.876288] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[0.900954] (-) TimerEvent: {}
+[0.931415] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[0.934429] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.984422] (teleop_twist_joy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.998980] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.001153] (-) TimerEvent: {}
+[1.001648] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.001784] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.001848] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.001906] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.014009] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.024701] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.024833] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/peachji/peachF1/teleop_twist_joy-humble/build/teleop_twist_joy>;$<BUILD_INTERFACE:/home/peachji/peachF1/teleop_twist_joy-humble/include>\n'}
+[1.024899] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.025226] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.025952] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.026228] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.026746] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.027816] (teleop_twist_joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.034893] (teleop_twist_joy) StdoutLine: {'line': b'-- Generating done\n'}
+[1.036409] (teleop_twist_joy) StdoutLine: {'line': b'-- Build files have been written to: /home/peachji/peachF1/teleop_twist_joy-humble/build/teleop_twist_joy\n'}
+[1.043648] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[1.044174] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[1.044827] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/peachji/peachF1/teleop_twist_joy-humble/build/teleop_twist_joy', '--', '-j16', '-l16'], 'cwd': '/home/peachji/peachF1/teleop_twist_joy-humble/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'peachji'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/peachji'), ('OLDPWD', '/home/peachji/peachF1'), ('DESKTOP_SESSION', 'ubuntu'), ('EMW_IMPLENTATION', 'rmw_cyclonedds_cpp'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1761'), ('SYSTEMD_EXEC_PID', '2105'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4762'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'peachji'), ('JOURNAL_STREAM', '8:9737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'peachji'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/PeachJi:@/tmp/.ICE-unix/1913,unix/PeachJi:/tmp/.ICE-unix/1913'), ('INVOCATION_ID', 'd75535991f434c8cb4ffd9b9eeaa1f7d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WR1XT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9474a722-e545-4070-85b9-53fd96c664e6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/peachji/peachF1/teleop_twist_joy-humble/build/teleop_twist_joy'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.086043] (teleop_twist_joy) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o\x1b[0m\n'}
+[1.101343] (-) TimerEvent: {}
+[1.201536] (-) TimerEvent: {}
+[1.301832] (-) TimerEvent: {}
+[1.402208] (-) TimerEvent: {}
+[1.502416] (-) TimerEvent: {}
+[1.602649] (-) TimerEvent: {}
+[1.702924] (-) TimerEvent: {}
+[1.803249] (-) TimerEvent: {}
+[1.903490] (-) TimerEvent: {}
+[2.003842] (-) TimerEvent: {}
+[2.104224] (-) TimerEvent: {}
+[2.204580] (-) TimerEvent: {}
+[2.304929] (-) TimerEvent: {}
+[2.405287] (-) TimerEvent: {}
+[2.505628] (-) TimerEvent: {}
+[2.605964] (-) TimerEvent: {}
+[2.706297] (-) TimerEvent: {}
+[2.806622] (-) TimerEvent: {}
+[2.906948] (-) TimerEvent: {}
+[3.007284] (-) TimerEvent: {}
+[3.107623] (-) TimerEvent: {}
+[3.207992] (-) TimerEvent: {}
+[3.308345] (-) TimerEvent: {}
+[3.408701] (-) TimerEvent: {}
+[3.509045] (-) TimerEvent: {}
+[3.609399] (-) TimerEvent: {}
+[3.709766] (-) TimerEvent: {}
+[3.810097] (-) TimerEvent: {}
+[3.910443] (-) TimerEvent: {}
+[4.010774] (-) TimerEvent: {}
+[4.111083] (-) TimerEvent: {}
+[4.211397] (-) TimerEvent: {}
+[4.311734] (-) TimerEvent: {}
+[4.412081] (-) TimerEvent: {}
+[4.512391] (-) TimerEvent: {}
+[4.612704] (-) TimerEvent: {}
+[4.713017] (-) TimerEvent: {}
+[4.813332] (-) TimerEvent: {}
+[4.913647] (-) TimerEvent: {}
+[5.013976] (-) TimerEvent: {}
+[5.114327] (-) TimerEvent: {}
+[5.214667] (-) TimerEvent: {}
+[5.314985] (-) TimerEvent: {}
+[5.415299] (-) TimerEvent: {}
+[5.515632] (-) TimerEvent: {}
+[5.615975] (-) TimerEvent: {}
+[5.716323] (-) TimerEvent: {}
+[5.816654] (-) TimerEvent: {}
+[5.916972] (-) TimerEvent: {}
+[6.017311] (-) TimerEvent: {}
+[6.117674] (-) TimerEvent: {}
+[6.156721] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_twist_joy.so\x1b[0m\n'}
+[6.217894] (-) TimerEvent: {}
+[6.318299] (-) TimerEvent: {}
+[6.412196] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[6.418435] (-) TimerEvent: {}
+[6.426298] (teleop_twist_joy) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[6.518553] (-) TimerEvent: {}
+[6.618830] (-) TimerEvent: {}
+[6.719179] (-) TimerEvent: {}
+[6.819530] (-) TimerEvent: {}
+[6.919778] (-) TimerEvent: {}
+[7.020103] (-) TimerEvent: {}
+[7.120349] (-) TimerEvent: {}
+[7.220688] (-) TimerEvent: {}
+[7.320943] (-) TimerEvent: {}
+[7.421267] (-) TimerEvent: {}
+[7.521495] (-) TimerEvent: {}
+[7.621746] (-) TimerEvent: {}
+[7.722071] (-) TimerEvent: {}
+[7.822348] (-) TimerEvent: {}
+[7.881383] (teleop_twist_joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[7.922451] (-) TimerEvent: {}
+[8.010542] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[8.019900] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[8.022553] (-) TimerEvent: {}
+[8.041419] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'install'}
+[8.048889] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/peachji/peachF1/teleop_twist_joy-humble/build/teleop_twist_joy'], 'cwd': '/home/peachji/peachF1/teleop_twist_joy-humble/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'peachji'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/peachji'), ('OLDPWD', '/home/peachji/peachF1'), ('DESKTOP_SESSION', 'ubuntu'), ('EMW_IMPLENTATION', 'rmw_cyclonedds_cpp'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1761'), ('SYSTEMD_EXEC_PID', '2105'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4762'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'peachji'), ('JOURNAL_STREAM', '8:9737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'peachji'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/PeachJi:@/tmp/.ICE-unix/1913,unix/PeachJi:/tmp/.ICE-unix/1913'), ('INVOCATION_ID', 'd75535991f434c8cb4ffd9b9eeaa1f7d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WR1XT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9474a722-e545-4070-85b9-53fd96c664e6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/peachji/peachF1/teleop_twist_joy-humble/build/teleop_twist_joy'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.055391] (teleop_twist_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.055539] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/lib/libteleop_twist_joy.so\n'}
+[8.058577] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""\n'}
+[8.058755] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node\n'}
+[8.058852] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""\n'}
+[8.058912] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/include/teleop_twist_joy\n'}
+[8.058969] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy\n'}
+[8.059025] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy.hpp\n'}
+[8.059080] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h\n'}
+[8.059136] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/launch\n'}
+[8.059190] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py\n'}
+[8.059570] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/config\n'}
+[8.059679] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml\n'}
+[8.059730] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml\n'}
+[8.059893] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml\n'}
+[8.060042] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml\n'}
+[8.060198] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml\n'}
+[8.060391] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh\n'}
+[8.060437] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv\n'}
+[8.060509] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy\n'}
+[8.060564] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy\n'}
+[8.060608] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh\n'}
+[8.060650] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv\n'}
+[8.060690] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh\n'}
+[8.060733] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv\n'}
+[8.060773] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash\n'}
+[8.060814] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh\n'}
+[8.060860] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh\n'}
+[8.060901] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv\n'}
+[8.060940] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv\n'}
+[8.060994] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy\n'}
+[8.061047] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy\n'}
+[8.061110] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake\n'}
+[8.061162] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake\n'}
+[8.061204] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.061271] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.061315] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.061361] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake\n'}
+[8.061394] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake\n'}
+[8.061440] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/peachji/peachF1/teleop_twist_joy-humble/install/teleop_twist_joy/share/teleop_twist_joy/package.xml\n'}
+[8.062848] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[8.095888] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 0}
+[8.096220] (-) EventReactorShutdown: {}

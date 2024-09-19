@@ -1,0 +1,309 @@
+[0.012s] Invoking command in '/home/peachji/peachF1/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/peachji/peachF1/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/peachji/peachF1/install/vesc_msgs
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.214s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.286s] -- Detecting CXX compiler ABI info
+[0.343s] -- Detecting CXX compiler ABI info - done
+[0.351s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.351s] -- Detecting CXX compile features
+[0.352s] -- Detecting CXX compile features - done
+[0.354s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.488s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.632s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.662s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.915s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.402s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.404s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.442s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.442s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.442s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.442s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.473s] -- Found PythonExtra: .so  
+[1.566s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.597s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.599s] -- Added test 'lint_cmake' to check CMake code style
+[1.601s] -- Added test 'xmllint' to check XML markup files
+[1.604s] -- Configuring done
+[1.663s] -- Generating done
+[1.666s] -- Build files have been written to: /home/peachji/peachF1/build/vesc_msgs
+[1.680s] Invoked command in '/home/peachji/peachF1/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/peachji/peachF1/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/peachji/peachF1/install/vesc_msgs
+[1.681s] Invoking command in '/home/peachji/peachF1/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/peachji/peachF1/build/vesc_msgs -- -j16 -l16
+[1.740s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.756s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.769s] [  3%] Built target ament_cmake_python_copy_vesc_msgs
+[2.231s] running egg_info
+[2.233s] creating vesc_msgs.egg-info
+[2.233s] writing vesc_msgs.egg-info/PKG-INFO
+[2.233s] writing dependency_links to vesc_msgs.egg-info/dependency_links.txt
+[2.234s] writing top-level names to vesc_msgs.egg-info/top_level.txt
+[2.234s] writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[2.238s] reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[2.239s] writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[2.283s] [  3%] Built target ament_cmake_python_build_vesc_msgs_egg
+[2.463s] [  3%] Built target vesc_msgs__cpp
+[2.479s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.480s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.505s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.066s] [ 10%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state__functions.c.o[0m
+[3.067s] [ 12%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu__functions.c.o[0m
+[3.072s] [ 14%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c.o[0m
+[3.072s] [ 16%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state_stamped__functions.c.o[0m
+[3.265s] [ 18%] [32m[1mLinking C shared library libvesc_msgs__rosidl_generator_c.so[0m
+[3.388s] [ 18%] Built target vesc_msgs__rosidl_generator_c
+[3.404s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.416s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.422s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.669s] [ 25%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_state__type_support.cpp.o[0m
+[3.671s] [ 27%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_state_stamped__type_support.cpp.o[0m
+[3.673s] [ 29%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_imu__type_support.cpp.o[0m
+[3.675s] [ 30%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_imu_stamped__type_support.cpp.o[0m
+[3.694s] [ 32%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_state__type_support.cpp.o[0m
+[3.704s] [ 36%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_state__type_support.cpp.o[0m
+[3.704s] [ 36%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_state_stamped__type_support.cpp.o[0m
+[3.706s] [ 38%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_imu__type_support.cpp.o[0m
+[3.711s] [ 41%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_imu__type_support.cpp.o[0m
+[3.711s] [ 41%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_imu_stamped__type_support.cpp.o[0m
+[3.711s] [ 43%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp.o[0m
+[3.715s] [ 45%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp.o[0m
+[4.322s] [ 47%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_cpp.so[0m
+[4.429s] [ 47%] Built target vesc_msgs__rosidl_typesupport_cpp
+[4.610s] [ 49%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.630s] [ 52%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c.o[0m
+[4.630s] [ 54%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_imu__type_support.c.o[0m
+[4.630s] [ 56%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_state__type_support.c.o[0m
+[4.630s] [ 52%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c.o[0m
+[4.686s] [ 58%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support_c.cpp.o[0m
+[4.687s] [ 60%] [32m[1mLinking C shared library libvesc_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.689s] [ 63%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support_c.cpp.o[0m
+[4.689s] [ 63%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_state__type_support_c.cpp.o[0m
+[4.690s] [ 65%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_imu__type_support_c.cpp.o[0m
+[4.736s] [ 65%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[4.759s] [ 69%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_state_stamped__type_support.cpp.o[0m
+[4.759s] [ 69%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_state__type_support.cpp.o[0m
+[4.759s] [ 69%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[4.760s] [ 70%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_imu_stamped__type_support.cpp.o[0m
+[4.760s] [ 72%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_imu__type_support.cpp.o[0m
+[4.791s] [ 74%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.810s] [ 76%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_c.so[0m
+[4.887s] [ 76%] Built target vesc_msgs__rosidl_typesupport_c
+[4.906s] [ 76%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[5.245s] [ 78%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.352s] [ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[5.380s] [ 78%] Built target vesc_msgs
+[5.404s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.250s] [ 80%] Built target vesc_msgs__py
+[6.274s] [ 81%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_state_s.c.o[0m
+[6.277s] [ 87%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_state_stamped_s.c.o[0m
+[6.277s] [ 87%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_stamped_s.c.o[0m
+[6.277s] [ 87%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_s.c.o[0m
+[6.412s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/libvesc_msgs__rosidl_generator_py.so[0m
+[6.454s] [ 89%] Built target vesc_msgs__rosidl_generator_py
+[6.475s] [ 90%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.475s] [ 92%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.476s] [ 94%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.562s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.567s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.604s] [ 98%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.611s] [100%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[6.612s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.653s] [100%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[6.667s] Invoked command in '/home/peachji/peachF1/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/peachji/peachF1/build/vesc_msgs -- -j16 -l16
+[6.773s] Invoking command in '/home/peachji/peachF1/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/peachji/peachF1/build/vesc_msgs
+[6.778s] -- Install configuration: ""
+[6.778s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs
+[6.778s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[6.779s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[6.779s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu.h
+[6.779s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state_stamped.h
+[6.779s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[6.779s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h
+[6.779s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h
+[6.779s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__functions.h
+[6.779s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__functions.h
+[6.779s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__functions.h
+[6.779s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.h
+[6.779s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__functions.c
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__functions.c
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.h
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__struct.h
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__struct.h
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__functions.c
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__struct.h
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu_stamped.h
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state.h
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so
+[6.780s] -- Set runtime path of "/home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so" to ""
+[6.780s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[6.780s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.780s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h
+[6.780s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so
+[6.781s] -- Set runtime path of "/home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.781s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[6.781s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.781s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.c
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.c
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so
+[6.781s] -- Set runtime path of "/home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so
+[6.781s] -- Set runtime path of "/home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so" to ""
+[6.781s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[6.781s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu_stamped.hpp
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state.hpp
+[6.781s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__builder.hpp
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__traits.hpp
+[6.781s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__struct.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__traits.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__struct.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__builder.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state_stamped.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu.hpp
+[6.782s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[6.782s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[6.782s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/dds_fastrtps
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.782s] -- Set runtime path of "/home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.782s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[6.782s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[6.782s] -- Up-to-date: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp
+[6.782s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.cpp
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.cpp
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so
+[6.783s] -- Set runtime path of "/home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so
+[6.783s] -- Set runtime path of "/home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so" to ""
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info/PKG-INFO
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info/top_level.txt
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info/dependency_links.txt
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info/SOURCES.txt
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/libvesc_msgs__rosidl_generator_py.so
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_c.c
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/__init__.py
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.783s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.784s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg
+[6.784s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state.py
+[6.784s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu.py
+[6.784s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_s.c
+[6.784s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_stamped.py
+[6.784s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_stamped_s.c
+[6.784s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_s.c
+[6.784s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_stamped_s.c
+[6.784s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/__init__.py
+[6.784s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_stamped.py
+[6.784s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.812s] Listing '/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs'...
+[6.812s] Compiling '/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/__init__.py'...
+[6.812s] Listing '/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg'...
+[6.812s] Compiling '/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/__init__.py'...
+[6.812s] Compiling '/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu.py'...
+[6.812s] Compiling '/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_stamped.py'...
+[6.813s] Compiling '/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state.py'...
+[6.813s] Compiling '/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_stamped.py'...
+[6.815s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.816s] -- Set runtime path of "/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.816s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.816s] -- Set runtime path of "/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.816s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.816s] -- Set runtime path of "/home/peachji/peachF1/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.816s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_py.so
+[6.816s] -- Set runtime path of "/home/peachji/peachF1/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_py.so" to ""
+[6.816s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl
+[6.816s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl
+[6.816s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl
+[6.816s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl
+[6.816s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg
+[6.816s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg
+[6.816s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/environment/path.sh
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/environment/path.dsv
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/local_setup.bash
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/local_setup.sh
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/local_setup.zsh
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/local_setup.dsv
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/package.dsv
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cExport.cmake
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.817s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cppExport.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_pyExport.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.818s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake
+[6.819s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake
+[6.819s] -- Installing: /home/peachji/peachF1/install/vesc_msgs/share/vesc_msgs/package.xml
+[6.821s] Invoked command in '/home/peachji/peachF1/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/peachji/peachF1/build/vesc_msgs

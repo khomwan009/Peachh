@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/INC493/src/vesc-humble/vesc_driver
+CMAKE_SOURCE_DIR = /home/peachji/peachF1/vesc_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/INC493/src/vesc-humble/build/vesc_driver
+CMAKE_BINARY_DIR = /home/peachji/peachF1/build/vesc_driver
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/parallels/INC493/src/vesc-humble/build/vesc_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/INC493/src/vesc-humble/vesc_driver /home/parallels/INC493/src/vesc-humble/vesc_driver /home/parallels/INC493/src/vesc-humble/build/vesc_driver /home/parallels/INC493/src/vesc-humble/build/vesc_driver /home/parallels/INC493/src/vesc-humble/build/vesc_driver/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/peachji/peachF1/build/vesc_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peachji/peachF1/vesc_driver /home/peachji/peachF1/vesc_driver /home/peachji/peachF1/build/vesc_driver /home/peachji/peachF1/build/vesc_driver /home/peachji/peachF1/build/vesc_driver/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

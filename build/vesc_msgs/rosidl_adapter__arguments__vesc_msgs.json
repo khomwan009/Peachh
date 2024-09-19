@@ -1,9 +1,9 @@
 {
   "package_name": "vesc_msgs",
   "non_idl_tuples": [
-    "/home/parallels/INC493/src/vesc-humble/vesc_msgs:msg/VescState.msg",
-    "/home/parallels/INC493/src/vesc-humble/vesc_msgs:msg/VescStateStamped.msg",
-    "/home/parallels/INC493/src/vesc-humble/vesc_msgs:msg/VescImu.msg",
-    "/home/parallels/INC493/src/vesc-humble/vesc_msgs:msg/VescImuStamped.msg"
+    "/home/peachji/peachF1/vesc_msgs:msg/VescState.msg",
+    "/home/peachji/peachF1/vesc_msgs:msg/VescStateStamped.msg",
+    "/home/peachji/peachF1/vesc_msgs:msg/VescImu.msg",
+    "/home/peachji/peachF1/vesc_msgs:msg/VescImuStamped.msg"
   ]
 }

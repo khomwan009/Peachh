@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/INC493/src/vesc-humble/vesc_msgs
+CMAKE_SOURCE_DIR = /home/peachji/peachF1/vesc_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/INC493/src/vesc-humble/build/vesc_msgs
+CMAKE_BINARY_DIR = /home/peachji/peachF1/build/vesc_msgs
 
 # Include any dependencies generated for this target.
 include CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/flag
 CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o: CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/flags.make
 CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o: rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c
 CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o: CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/INC493/src/vesc-humble/build/vesc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o -MF CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o.d -o CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o -c /home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peachji/peachF1/build/vesc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o -MF CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o.d -o CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o -c /home/peachji/peachF1/build/vesc_msgs/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c
 
 CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c > CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peachji/peachF1/build/vesc_msgs/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c > CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.i
 
 CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/INC493/src/vesc-humble/build/vesc_msgs/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c -o CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peachji/peachF1/build/vesc_msgs/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c -o CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.s
 
 # Object files for target vesc_msgs__rosidl_typesupport_introspection_c__pyext
 vesc_msgs__rosidl_typesupport_introspection_c__pyext_OBJECTS = \
@@ -90,54 +90,54 @@ vesc_msgs__rosidl_typesupport_introspection_c__pyext_OBJECTS = \
 # External object files for target vesc_msgs__rosidl_typesupport_introspection_c__pyext
 vesc_msgs__rosidl_typesupport_introspection_c__pyext_EXTERNAL_OBJECTS =
 
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: rosidl_generator_py/vesc_msgs/libvesc_msgs__rosidl_generator_py.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: libvesc_msgs__rosidl_typesupport_introspection_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: libvesc_msgs__rosidl_typesupport_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: libvesc_msgs__rosidl_generator_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_runtime_c.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librcutils.so
-rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/INC493/src/vesc-humble/build/vesc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so"
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: rosidl_generator_py/vesc_msgs/libvesc_msgs__rosidl_generator_py.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: libvesc_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: libvesc_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: libvesc_msgs__rosidl_generator_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_runtime_c.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librcutils.so
+rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/peachji/peachF1/build/vesc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/build: rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/build: rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
 .PHONY : CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/build
 
 CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/clean:
@@ -145,6 +145,6 @@ CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/clean:
 .PHONY : CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/clean
 
 CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend:
-	cd /home/parallels/INC493/src/vesc-humble/build/vesc_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/INC493/src/vesc-humble/vesc_msgs /home/parallels/INC493/src/vesc-humble/vesc_msgs /home/parallels/INC493/src/vesc-humble/build/vesc_msgs /home/parallels/INC493/src/vesc-humble/build/vesc_msgs /home/parallels/INC493/src/vesc-humble/build/vesc_msgs/CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/peachji/peachF1/build/vesc_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peachji/peachF1/vesc_msgs /home/peachji/peachF1/vesc_msgs /home/peachji/peachF1/build/vesc_msgs /home/peachji/peachF1/build/vesc_msgs /home/peachji/peachF1/build/vesc_msgs/CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend
 
